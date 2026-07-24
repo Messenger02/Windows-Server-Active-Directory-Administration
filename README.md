@@ -38,3 +38,13 @@
     - A logon error occurred: "User is currently locked out"
     - On Windows Server VM, I verified the user lockout status on the user properties, and successfully unlocked the account
 # Screenshots and proof of implementation
+### Active Directory OU Structure
+![Companyname/threeOUs](.//TheThreeOUs.png)
+   ---
+### Access Denied Verification
+  ![BellonaUserAccessingManagementSharedFolder](.//SharedDocsManagementUser.png)
+  ![CassiusUserDeniedAccesstoSalesSharedFolder](.//UserBlockedNoPermission.png)
+  ---
+### User Lockout and Administrative Unlock
+![UserLockedout](.//UserLockout.png)
+![unlockingUserAccount](.//CBellonaAccountUnlocked.png)
